@@ -10,6 +10,8 @@ The pipeline that I settled one does the following:
     2. Assign pseudo-label (no ground truth) using the same trasnformer by computing the cosine similarity of the sample and labels vectorized
     3. Train a LSTM model on the labeled samples to be able to generalize the task in the future
 
+The code as was run can be seen in notebooks/veridion2.ipynb
+
 Initial aproach: ![Block Diagram](img/block_diagram.png)
     
 ### Strenghts:
