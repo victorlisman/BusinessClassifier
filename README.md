@@ -10,7 +10,7 @@
         2. Assign pseudo-label (no ground truth) using the same trasnformer by computing the cosine similarity of the sample and labels vectorized
         3. Train a LSTM model on the labeled samples to be able to generalize the task in the future
 
-    Initial aproach: https://github.com/victorlisman/Veridion-Challange/blob/main/img/block_diagram.png
+    Initial aproach: ![Block Diagram](img/block_diagram.png)
     
 ### Strenghts:
     1. Effectivly comparing all the available company metadata
