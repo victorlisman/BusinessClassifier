@@ -2,6 +2,10 @@
 
 ## Problem Chosen: Company Classifier
 
+Tagged data can be seen under data/processed.
+
+Final .csv file is data/processed/all_companies_tagged.csv
+
 ## Aproach
 The first thing I did was scan the .csv file containing companies to see how noisy the data is, the distribution of different sectors, categories, etc.
 
