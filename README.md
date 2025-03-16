@@ -10,8 +10,10 @@ The pipeline that I settled one does the following:
     2. Assign pseudo-label (no ground truth) using the same trasnformer by computing the cosine similarity of the sample and labels vectorized
     3. Train a LSTM model on the labeled samples to be able to generalize the task in the future
 
-The code as was run can be seen in notebooks/veridion2.ipynb
+The code as was run can be seen in notebooks/veridion2.ipynb.
+
 The code was the split into different python files for modularization.
+
 The model can be run passing a POST request to the server containing a .json body with company columns. A predicted tag will be sent back to the user.
 
 Initial aproach: ![Block Diagram](img/block_diagram.png)
