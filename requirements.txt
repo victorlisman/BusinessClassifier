@@ -1,0 +1,11 @@
+# Required
+pandas
+numpy
+scikit-learn
+torch
+sentence-transformers
+nltk
+
+# Optional for running fastapi server
+fastapi
+uvicorn
