@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+lib64
+pyvenv.cfg
+lstm_classifier.pt
+vocab.pkl
+label2idx.pkl
