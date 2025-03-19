@@ -1,7 +1,3 @@
-# Veridion-Challange
-
-## Problem Chosen: Company Classifier
-
 Tagged data can be seen under data/processed.
 
 Final .csv file is data/processed/all_companies_tagged.csv
@@ -20,8 +16,6 @@ The code was the split into different python files for modularization.
 
 The model can be run passing a POST request to the server containing a .json body with company columns. A predicted tag will be sent back to the user.
 
-Initial aproach: ![Block Diagram](img/block_diagram.png)
-    
 ### Strenghts:
 1. Effectivly comparing all the available company metadata
 2. Rich label assignment, by filtering top-k labels
@@ -45,10 +39,6 @@ More complex neural architectures/pretrained sentence classifiers
 ## Trade-Offs:
 Semantic loss of some samples, dropped by being below the threshold
 Inblalance between some sectors causing the model to be slightly overfit
-
-## What I Know I Don't Know
-1. How good the chosen thresholds handle different domains
-2. Robustness of filtering on diverse descrptions
 
 ## Future Improvements
 1. Adaptive thresholding
